@@ -1,10 +1,13 @@
-import requests
+# themoviedb.org   saytidan uzingnizga kerakli inglizcha filmlarni qidrib tobish imkonini beruchi bot 
+
+
 from aiogram import Bot, Dispatcher, types
 from aiogram.types import Message, InlineKeyboardButton, InlineKeyboardMarkup
 from aiogram.filters import Command
 from aiogram.fsm.context import FSMContext
 from aiogram.fsm.state import StatesGroup, State
 from aiogram.fsm.storage.memory import MemoryStorage
+import requests
 
 API_TOKEN = '7227515766:AAFIfZ2fSbSLVgZX3NbmkYkoTE773Iw1odg'
 TMDB_API_KEY = 'd04fb5df42595348550c3830e92b84c9'  # Replace with your TMDB API key

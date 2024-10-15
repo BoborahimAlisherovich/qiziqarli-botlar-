@@ -1,3 +1,6 @@
+# Botga /start kamandasini yozib qidirmoqchi bulgan narsangizni yozasiz u sizga topib beradi 
+# lekn kanal likni uzingiz quyasiz
+
 from aiogram import Bot, Dispatcher, types
 from aiogram.filters import Command
 from aiogram.fsm.context import FSMContext
